@@ -1,0 +1,85 @@
+.container{
+    margin: 20px auto;
+    width: 90%;
+}
+.container form{
+    width: 100%;
+    padding: 10px;
+}
+.container label{
+    display: block;
+    letter-spacing: .1rem;
+    color: var(--white-color);
+    padding: 10px;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: 500;
+}
+.container input,
+.container textarea{
+    display: flex;
+    justify-content: center;
+    width: 80%;
+    margin: 0 auto;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: #313134;
+    color: var(--white-color);
+    cursor: pointer;
+    resize:none;
+}
+.container input:focus,
+.container textarea:focus{
+   background-color: #424245;
+   outline: none;
+}
+.form-item{
+    margin: 10px 0;
+}
+.btn{
+    width: 100%;
+    text-align: center;
+}
+.btn button{
+    width: 150px;
+    font-size: 18px;
+    letter-spacing: 0.2rem;
+    padding: 5px 10px;
+    border: 1px solid transparent;
+    outline: none;
+    transition: all 0,5s ease-in-out;
+    position: relative;
+    margin-top: 5px;
+    background-color: var(--third-color);
+    border-radius: 5px;
+    cursor: pointer;
+}
+.btn button:hover{
+    background-color: #b29842;
+}
+.msg{
+    text-align: center;
+    margin: 0 auto;
+    margin-bottom: 10px;
+    letter-spacing: 0.2rem;
+    font-weight: bold;
+    width: 340px;
+    padding: 3px;
+    font-size: 16px;
+    color: var(--white-color);
+    display: none;
+}
+.msgAppear{
+    display: block;
+}
+@media screen and (min-width:664px) {
+    .container{
+        width: 60%;
+    }
+}
+@media screen and (min-width:986px) {
+    .container{
+        width: 40%;
+    }
+}
